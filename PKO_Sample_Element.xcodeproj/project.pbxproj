@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8D3FA711A0BB169006AC4CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3FA701A0BB169006AC4CE /* ViewController.swift */; };
+		A8D3FA791A0BB169006AC4CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8D3FA771A0BB169006AC4CE /* LaunchScreen.xib */; };
+		A8D3FA851A0BB169006AC4CE /* PKO_Sample_ElementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3FA841A0BB169006AC4CE /* PKO_Sample_ElementTests.swift */; };
+		A8D3FA901A0BB21E006AC4CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3FA8F1A0BB21E006AC4CE /* AppDelegate.swift */; };
+		A8D3FA971A0BB3ED006AC4CE /* PKOElementDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3FA951A0BB3ED006AC4CE /* PKOElementDataModel.swift */; };
+		A8D3FA981A0BB3ED006AC4CE /* PKOElementDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3FA961A0BB3ED006AC4CE /* PKOElementDataService.swift */; };
+		A8D3FA9A1A0BB3FC006AC4CE /* Elements.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8D3FA991A0BB3FC006AC4CE /* Elements.plist */; };
+		A8D3FA9E1A0BB494006AC4CE /* PKOElementTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3FA9D1A0BB494006AC4CE /* PKOElementTabBarViewController.swift */; };
+		A8D3FAAB1A0BB4EE006AC4CE /* PKOTableDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3FAA61A0BB4EE006AC4CE /* PKOTableDataSourceProtocol.swift */; };
+		A8D3FAAC1A0BB4EE006AC4CE /* PKOTableByNameDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3FAA71A0BB4EE006AC4CE /* PKOTableByNameDataSource.swift */; };
+		A8D3FAAD1A0BB4EE006AC4CE /* PKOTableByNumberDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3FAA81A0BB4EE006AC4CE /* PKOTableByNumberDataSource.swift */; };
+		A8D3FAAE1A0BB4EE006AC4CE /* PKOTableBySymbolDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3FAA91A0BB4EE006AC4CE /* PKOTableBySymbolDataSource.swift */; };
+		A8D3FAAF1A0BB4EE006AC4CE /* PKOTableByStateDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3FAAA1A0BB4EE006AC4CE /* PKOTableByStateDataSource.swift */; };
+		A8D3FAB21A0BB4F4006AC4CE /* PKOElementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3FAB01A0BB4F4006AC4CE /* PKOElementTableViewCell.swift */; };
+		A8D3FAB31A0BB4F4006AC4CE /* PKOElementTableViewCellIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3FAB11A0BB4F4006AC4CE /* PKOElementTableViewCellIcon.swift */; };
+		A8D3FAB51A0BB4FA006AC4CE /* PKOElementTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3FAB41A0BB4FA006AC4CE /* PKOElementTableViewController.swift */; };
+		A8D3FAB71A0BB50B006AC4CE /* PKOElementDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3FAB61A0BB50B006AC4CE /* PKOElementDetailViewController.swift */; };
+		A8D3FABA1A0BB512006AC4CE /* PKOElementDetailImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3FAB81A0BB512006AC4CE /* PKOElementDetailImageView.swift */; };
+		A8D3FABB1A0BB512006AC4CE /* PKOElementDetailImageFlippedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3FAB91A0BB512006AC4CE /* PKOElementDetailImageFlippedView.swift */; };
+		A8D3FABD1A0BB6A7006AC4CE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D3FABC1A0BB6A7006AC4CE /* MainStoryboard.storyboard */; };
+		A8D3FABF1A0BB6AF006AC4CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8D3FABE1A0BB6AF006AC4CE /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8D3FA7F1A0BB169006AC4CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8D3FA611A0BB169006AC4CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8D3FA681A0BB169006AC4CE;
+			remoteInfo = PKO_Sample_Element;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8D3FA691A0BB169006AC4CE /* PKO_Sample_Element.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PKO_Sample_Element.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D3FA6D1A0BB169006AC4CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8D3FA701A0BB169006AC4CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8D3FA781A0BB169006AC4CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A8D3FA7E1A0BB169006AC4CE /* PKO_Sample_ElementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PKO_Sample_ElementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D3FA831A0BB169006AC4CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8D3FA841A0BB169006AC4CE /* PKO_Sample_ElementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKO_Sample_ElementTests.swift; sourceTree = "<group>"; };
+		A8D3FA8F1A0BB21E006AC4CE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8D3FA951A0BB3ED006AC4CE /* PKOElementDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKOElementDataModel.swift; sourceTree = "<group>"; };
+		A8D3FA961A0BB3ED006AC4CE /* PKOElementDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKOElementDataService.swift; sourceTree = "<group>"; };
+		A8D3FA991A0BB3FC006AC4CE /* Elements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Elements.plist; sourceTree = "<group>"; };
+		A8D3FA9D1A0BB494006AC4CE /* PKOElementTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKOElementTabBarViewController.swift; sourceTree = "<group>"; };
+		A8D3FAA61A0BB4EE006AC4CE /* PKOTableDataSourceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKOTableDataSourceProtocol.swift; sourceTree = "<group>"; };
+		A8D3FAA71A0BB4EE006AC4CE /* PKOTableByNameDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKOTableByNameDataSource.swift; sourceTree = "<group>"; };
+		A8D3FAA81A0BB4EE006AC4CE /* PKOTableByNumberDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKOTableByNumberDataSource.swift; sourceTree = "<group>"; };
+		A8D3FAA91A0BB4EE006AC4CE /* PKOTableBySymbolDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKOTableBySymbolDataSource.swift; sourceTree = "<group>"; };
+		A8D3FAAA1A0BB4EE006AC4CE /* PKOTableByStateDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKOTableByStateDataSource.swift; sourceTree = "<group>"; };
+		A8D3FAB01A0BB4F4006AC4CE /* PKOElementTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKOElementTableViewCell.swift; sourceTree = "<group>"; };
+		A8D3FAB11A0BB4F4006AC4CE /* PKOElementTableViewCellIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKOElementTableViewCellIcon.swift; sourceTree = "<group>"; };
+		A8D3FAB41A0BB4FA006AC4CE /* PKOElementTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKOElementTableViewController.swift; sourceTree = "<group>"; };
+		A8D3FAB61A0BB50B006AC4CE /* PKOElementDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKOElementDetailViewController.swift; sourceTree = "<group>"; };
+		A8D3FAB81A0BB512006AC4CE /* PKOElementDetailImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKOElementDetailImageView.swift; sourceTree = "<group>"; };
+		A8D3FAB91A0BB512006AC4CE /* PKOElementDetailImageFlippedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKOElementDetailImageFlippedView.swift; sourceTree = "<group>"; };
+		A8D3FABC1A0BB6A7006AC4CE /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A8D3FABE1A0BB6AF006AC4CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8D3FA661A0BB169006AC4CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D3FA7B1A0BB169006AC4CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8D3FA601A0BB169006AC4CE = {
+			isa = PBXGroup;
+			children = (
+				A8D3FA6B1A0BB169006AC4CE /* PKO_Sample_Element */,
+				A8D3FA811A0BB169006AC4CE /* PKO_Sample_ElementTests */,
+				A8D3FA6A1A0BB169006AC4CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8D3FA6A1A0BB169006AC4CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8D3FA691A0BB169006AC4CE /* PKO_Sample_Element.app */,
+				A8D3FA7E1A0BB169006AC4CE /* PKO_Sample_ElementTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8D3FA6B1A0BB169006AC4CE /* PKO_Sample_Element */ = {
+			isa = PBXGroup;
+			children = (
+				A8D3FA921A0BB316006AC4CE /* View */,
+				A8D3FA931A0BB324006AC4CE /* DataSources */,
+				A8D3FA911A0BB232006AC4CE /* Resources */,
+				A8D3FA8E1A0BB1F7006AC4CE /* AppDelegate */,
+				A8D3FA701A0BB169006AC4CE /* ViewController.swift */,
+				A8D3FA6C1A0BB169006AC4CE /* Supporting Files */,
+			);
+			path = PKO_Sample_Element;
+			sourceTree = "<group>";
+		};
+		A8D3FA6C1A0BB169006AC4CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8D3FA6D1A0BB169006AC4CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8D3FA811A0BB169006AC4CE /* PKO_Sample_ElementTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8D3FA841A0BB169006AC4CE /* PKO_Sample_ElementTests.swift */,
+				A8D3FA821A0BB169006AC4CE /* Supporting Files */,
+			);
+			path = PKO_Sample_ElementTests;
+			sourceTree = "<group>";
+		};
+		A8D3FA821A0BB169006AC4CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8D3FA831A0BB169006AC4CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8D3FA8E1A0BB1F7006AC4CE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A8D3FA8F1A0BB21E006AC4CE /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A8D3FA911A0BB232006AC4CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A8D3FABE1A0BB6AF006AC4CE /* Images.xcassets */,
+				A8D3FABC1A0BB6A7006AC4CE /* MainStoryboard.storyboard */,
+				A8D3FA991A0BB3FC006AC4CE /* Elements.plist */,
+				A8D3FA771A0BB169006AC4CE /* LaunchScreen.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A8D3FA921A0BB316006AC4CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8D3FA9B1A0BB472006AC4CE /* TabBarView */,
+				A8D3FA9F1A0BB4A3006AC4CE /* TableView */,
+				A8D3FAA31A0BB4CD006AC4CE /* DetailView */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A8D3FA931A0BB324006AC4CE /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				A8D3FA941A0BB32B006AC4CE /* ElementDataModel */,
+			);
+			name = DataSources;
+			sourceTree = "<group>";
+		};
+		A8D3FA941A0BB32B006AC4CE /* ElementDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				A8D3FA951A0BB3ED006AC4CE /* PKOElementDataModel.swift */,
+				A8D3FA961A0BB3ED006AC4CE /* PKOElementDataService.swift */,
+			);
+			name = ElementDataModel;
+			sourceTree = "<group>";
+		};
+		A8D3FA9B1A0BB472006AC4CE /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				A8D3FA9C1A0BB47E006AC4CE /* TabBarViewController */,
+			);
+			name = TabBarView;
+			sourceTree = "<group>";
+		};
+		A8D3FA9C1A0BB47E006AC4CE /* TabBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A8D3FA9D1A0BB494006AC4CE /* PKOElementTabBarViewController.swift */,
+			);
+			name = TabBarViewController;
+			sourceTree = "<group>";
+		};
+		A8D3FA9F1A0BB4A3006AC4CE /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				A8D3FAA21A0BB4C4006AC4CE /* TableViewController */,
+				A8D3FAA11A0BB4B7006AC4CE /* TableView */,
+				A8D3FAA01A0BB4B3006AC4CE /* TableDataSource */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		A8D3FAA01A0BB4B3006AC4CE /* TableDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				A8D3FAA61A0BB4EE006AC4CE /* PKOTableDataSourceProtocol.swift */,
+				A8D3FAA71A0BB4EE006AC4CE /* PKOTableByNameDataSource.swift */,
+				A8D3FAA81A0BB4EE006AC4CE /* PKOTableByNumberDataSource.swift */,
+				A8D3FAA91A0BB4EE006AC4CE /* PKOTableBySymbolDataSource.swift */,
+				A8D3FAAA1A0BB4EE006AC4CE /* PKOTableByStateDataSource.swift */,
+			);
+			name = TableDataSource;
+			sourceTree = "<group>";
+		};
+		A8D3FAA11A0BB4B7006AC4CE /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				A8D3FAB01A0BB4F4006AC4CE /* PKOElementTableViewCell.swift */,
+				A8D3FAB11A0BB4F4006AC4CE /* PKOElementTableViewCellIcon.swift */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		A8D3FAA21A0BB4C4006AC4CE /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A8D3FAB41A0BB4FA006AC4CE /* PKOElementTableViewController.swift */,
+			);
+			name = TableViewController;
+			sourceTree = "<group>";
+		};
+		A8D3FAA31A0BB4CD006AC4CE /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				A8D3FAA51A0BB4E3006AC4CE /* DetailController */,
+				A8D3FAA41A0BB4DB006AC4CE /* DetailView */,
+			);
+			name = DetailView;
+			sourceTree = "<group>";
+		};
+		A8D3FAA41A0BB4DB006AC4CE /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				A8D3FAB81A0BB512006AC4CE /* PKOElementDetailImageView.swift */,
+				A8D3FAB91A0BB512006AC4CE /* PKOElementDetailImageFlippedView.swift */,
+			);
+			name = DetailView;
+			sourceTree = "<group>";
+		};
+		A8D3FAA51A0BB4E3006AC4CE /* DetailController */ = {
+			isa = PBXGroup;
+			children = (
+				A8D3FAB61A0BB50B006AC4CE /* PKOElementDetailViewController.swift */,
+			);
+			name = DetailController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8D3FA681A0BB169006AC4CE /* PKO_Sample_Element */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8D3FA881A0BB169006AC4CE /* Build configuration list for PBXNativeTarget "PKO_Sample_Element" */;
+			buildPhases = (
+				A8D3FA651A0BB169006AC4CE /* Sources */,
+				A8D3FA661A0BB169006AC4CE /* Frameworks */,
+				A8D3FA671A0BB169006AC4CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PKO_Sample_Element;
+			productName = PKO_Sample_Element;
+			productReference = A8D3FA691A0BB169006AC4CE /* PKO_Sample_Element.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8D3FA7D1A0BB169006AC4CE /* PKO_Sample_ElementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8D3FA8B1A0BB169006AC4CE /* Build configuration list for PBXNativeTarget "PKO_Sample_ElementTests" */;
+			buildPhases = (
+				A8D3FA7A1A0BB169006AC4CE /* Sources */,
+				A8D3FA7B1A0BB169006AC4CE /* Frameworks */,
+				A8D3FA7C1A0BB169006AC4CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8D3FA801A0BB169006AC4CE /* PBXTargetDependency */,
+			);
+			name = PKO_Sample_ElementTests;
+			productName = PKO_Sample_ElementTests;
+			productReference = A8D3FA7E1A0BB169006AC4CE /* PKO_Sample_ElementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8D3FA611A0BB169006AC4CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = popkidorc;
+				TargetAttributes = {
+					A8D3FA681A0BB169006AC4CE = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					A8D3FA7D1A0BB169006AC4CE = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = A8D3FA681A0BB169006AC4CE;
+					};
+				};
+			};
+			buildConfigurationList = A8D3FA641A0BB169006AC4CE /* Build configuration list for PBXProject "PKO_Sample_Element" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8D3FA601A0BB169006AC4CE;
+			productRefGroup = A8D3FA6A1A0BB169006AC4CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8D3FA681A0BB169006AC4CE /* PKO_Sample_Element */,
+				A8D3FA7D1A0BB169006AC4CE /* PKO_Sample_ElementTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8D3FA671A0BB169006AC4CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D3FABD1A0BB6A7006AC4CE /* MainStoryboard.storyboard in Resources */,
+				A8D3FABF1A0BB6AF006AC4CE /* Images.xcassets in Resources */,
+				A8D3FA9A1A0BB3FC006AC4CE /* Elements.plist in Resources */,
+				A8D3FA791A0BB169006AC4CE /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D3FA7C1A0BB169006AC4CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8D3FA651A0BB169006AC4CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D3FAAD1A0BB4EE006AC4CE /* PKOTableByNumberDataSource.swift in Sources */,
+				A8D3FAAF1A0BB4EE006AC4CE /* PKOTableByStateDataSource.swift in Sources */,
+				A8D3FA901A0BB21E006AC4CE /* AppDelegate.swift in Sources */,
+				A8D3FAB51A0BB4FA006AC4CE /* PKOElementTableViewController.swift in Sources */,
+				A8D3FA981A0BB3ED006AC4CE /* PKOElementDataService.swift in Sources */,
+				A8D3FAB31A0BB4F4006AC4CE /* PKOElementTableViewCellIcon.swift in Sources */,
+				A8D3FAAB1A0BB4EE006AC4CE /* PKOTableDataSourceProtocol.swift in Sources */,
+				A8D3FAAE1A0BB4EE006AC4CE /* PKOTableBySymbolDataSource.swift in Sources */,
+				A8D3FABA1A0BB512006AC4CE /* PKOElementDetailImageView.swift in Sources */,
+				A8D3FA711A0BB169006AC4CE /* ViewController.swift in Sources */,
+				A8D3FABB1A0BB512006AC4CE /* PKOElementDetailImageFlippedView.swift in Sources */,
+				A8D3FAB71A0BB50B006AC4CE /* PKOElementDetailViewController.swift in Sources */,
+				A8D3FAB21A0BB4F4006AC4CE /* PKOElementTableViewCell.swift in Sources */,
+				A8D3FA9E1A0BB494006AC4CE /* PKOElementTabBarViewController.swift in Sources */,
+				A8D3FA971A0BB3ED006AC4CE /* PKOElementDataModel.swift in Sources */,
+				A8D3FAAC1A0BB4EE006AC4CE /* PKOTableByNameDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D3FA7A1A0BB169006AC4CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D3FA851A0BB169006AC4CE /* PKO_Sample_ElementTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8D3FA801A0BB169006AC4CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8D3FA681A0BB169006AC4CE /* PKO_Sample_Element */;
+			targetProxy = A8D3FA7F1A0BB169006AC4CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8D3FA771A0BB169006AC4CE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8D3FA781A0BB169006AC4CE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8D3FA861A0BB169006AC4CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8D3FA871A0BB169006AC4CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8D3FA891A0BB169006AC4CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PKO_Sample_Element/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A8D3FA8A1A0BB169006AC4CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PKO_Sample_Element/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A8D3FA8C1A0BB169006AC4CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PKO_Sample_ElementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PKO_Sample_Element.app/PKO_Sample_Element";
+			};
+			name = Debug;
+		};
+		A8D3FA8D1A0BB169006AC4CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PKO_Sample_ElementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PKO_Sample_Element.app/PKO_Sample_Element";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8D3FA641A0BB169006AC4CE /* Build configuration list for PBXProject "PKO_Sample_Element" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D3FA861A0BB169006AC4CE /* Debug */,
+				A8D3FA871A0BB169006AC4CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8D3FA881A0BB169006AC4CE /* Build configuration list for PBXNativeTarget "PKO_Sample_Element" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D3FA891A0BB169006AC4CE /* Debug */,
+				A8D3FA8A1A0BB169006AC4CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8D3FA8B1A0BB169006AC4CE /* Build configuration list for PBXNativeTarget "PKO_Sample_ElementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D3FA8C1A0BB169006AC4CE /* Debug */,
+				A8D3FA8D1A0BB169006AC4CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8D3FA611A0BB169006AC4CE /* Project object */;
+}
